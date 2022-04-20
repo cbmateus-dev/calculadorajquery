@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: bold
+}
+
+a:hover {
+    text-decoration: none;
+    font-size: 35px
+}
+
+.principal {
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 30px;
+   
+}
+
+
+
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 30px;
+    height: 50px;
+    width: 300px;
+    margin-top: 30px;
+   
+
+}
+

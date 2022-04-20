@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./src/js/calculadora.js"></script>
+
+
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="principal">
+        <div>
+            <p>Calculadora de Adição e Subtração</p>
+        </div>
+        <div><label for="qtdOperacoes">Digite a quantidade de campos envolvidos na operação</label></div>
+    </div>
+    <p></p>
+    <div class="container principal">
+        <input type="number" name="qtdOperacoes" id="qtdOperacoes" placeholder="Digite a quantidade de Operações"
+            value="" />
+        <button onClick="validar()" id="confirm">Confirmar</button>
+        <button onClick="limpar()" disabled="true" id="limpar">Limpar</button>
+    </div>
+
+    
+    <div class="botoes">
+        <button onClick="calcular('+')" disabled="true" id="somar">Realizar Soma</button>
+        <button onClick="calcular('-')" disabled="true" id="subtrair">Realizar Subtração</button>
+        
+    </div>
+    <div class="resultado principal"></div>
+    <br>
+    <a class="linkedin" href="https://www.linkedin.com/in/mateuscastro1992">Meu Linkedin</a>
+</body>
+
+</html>
